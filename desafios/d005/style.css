@@ -1,0 +1,63 @@
+:root{
+--main: #658CC7;
+--esq: #54ADC7;
+--dir: #4E52C7;
+--dir_comp: #C7B052;
+--esq_comp: #C7A079;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    padding-top: 20px;
+    color: darkslategray;
+}
+
+p{
+    /* color: #000; */
+    /* padding: 10px 40px; */
+    padding: 10px 25%;
+    color: var(--purple-100);
+}
+
+p a{
+    text-decoration: none;
+    /* color: var(--dir_comp); */
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+.ul_superior_menu{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.ul_superior_menu li{
+    float:left;
+    padding-top: 10px;
+}
+
+.ul_superior_menu a{
+    text-decoration: none;
+    /* color: var(--main); */
+    padding: 20px;
+}
+
+.ul_superior_menu a:hover{
+    /* color: #666; */
+    text-decoration: underline;
+}
+
+.ul_superior_menu .li_perfil_foto{
+    float:right;
+    padding-top: 0;
+}
+
+.li_perfil_foto img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* padding-right: 0px; */
+    margin-right: 40px;
+}
