@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
     color: var(--main);
 }
 
-p{
+main p{
     /* color: #000; */
     /* padding: 10px 40px; */
     padding: 10px 25%;
@@ -40,6 +40,10 @@ p a:hover{
 }
 
 .ul_superior_menu{
+    overflow: hidden;
+}
+
+body header ul{
     background-color: var(--powder-blue);
     list-style-type: none;
     overflow: hidden;
@@ -82,4 +86,8 @@ a img{
 
 .contact{
     text-align: center;
+}
+
+footer p{
+    text-align: right;
 }
