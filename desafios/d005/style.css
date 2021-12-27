@@ -4,12 +4,23 @@
 --dir: #4E52C7;
 --dir_comp: #C7B052;
 --esq_comp: #C7A079;
+
+--imperial-red: #e63946ff;
+--honeydew: #f1faeeff;
+--powder-blue: #a8dadcff;
+--celadon-blue: #457b9dff;
+--prussian-blue: #1d3557ff;
+}
+
+body{
+    background-color: var(--honeydew);
 }
 
 h1, h2, h3, h4, h5, h6{
     text-align: center;
     padding-top: 20px;
-    color: darkslategray;
+    /* color: darkslategray; */
+    color: var(--main);
 }
 
 p{
@@ -29,6 +40,7 @@ p a:hover{
 }
 
 .ul_superior_menu{
+    background-color: var(--powder-blue);
     list-style-type: none;
     overflow: hidden;
 }
@@ -47,6 +59,8 @@ p a:hover{
 .ul_superior_menu a:hover{
     /* color: #666; */
     text-decoration: underline;
+    background-color: var(--prussian-blue);
+    color: var(--honeydew);
 }
 
 .ul_superior_menu .li_perfil_foto{
@@ -60,4 +74,12 @@ p a:hover{
     border-radius: 50%;
     /* padding-right: 0px; */
     margin-right: 40px;
+}
+
+a img{
+    width: 60px;
+}
+
+.contact{
+    text-align: center;
 }
