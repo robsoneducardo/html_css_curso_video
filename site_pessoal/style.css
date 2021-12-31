@@ -12,6 +12,10 @@
 --prussian-blue: #1d3557ff;
 }
 
+*{
+    padding: 0;
+}
+
 body{
     background-color: var(--honeydew);
 }
@@ -19,7 +23,6 @@ body{
 h1, h2, h3, h4, h5, h6{
     text-align: center;
     padding-top: 20px;
-    /* color: darkslategray; */
     color: var(--main);
 }
 
@@ -39,37 +42,10 @@ p a:hover{
     text-decoration: underline;
 }
 
-.ul_superior_menu{
-    overflow: hidden;
-}
-
 body header ul{
     background-color: var(--powder-blue);
     list-style-type: none;
     overflow: hidden;
-}
-
-.ul_superior_menu li{
-    float:left;
-    padding-top: 10px;
-}
-
-.ul_superior_menu a{
-    text-decoration: none;
-    /* color: var(--main); */
-    padding: 20px;
-}
-
-.ul_superior_menu a:hover{
-    /* color: #666; */
-    text-decoration: underline;
-    background-color: var(--prussian-blue);
-    color: var(--honeydew);
-}
-
-.ul_superior_menu .li_perfil_foto{
-    float:right;
-    padding-top: 0;
 }
 
 .li_perfil_foto img{
